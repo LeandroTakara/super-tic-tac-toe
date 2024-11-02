@@ -125,7 +125,7 @@ void rowDeco(int row) {
 }
 
 void renderGame() {
-  system("cls");
+  printf("\e[1;1H\e[2J");
 
   printf("=========== SUPER TIC-TAC-TOE ===========\n");
 
